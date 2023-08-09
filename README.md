@@ -12,6 +12,8 @@ Theorem 1.5:  OptimalF11.txt (20 seconds) OptimalC11.txt (7 hours)
 Volume II
 ********************************
 Theorem 3.6: curveE.m (10 seconds)
+
 Theorem 1.2: curveF.m (1.3 hour)
+
 Remark 5.5: curveF_no_twist_Bi.m (18 seconds) curveF_twist_Bii.m (56 minutes) curveF_twist_Aiii.m (0.7 minutes)
 
