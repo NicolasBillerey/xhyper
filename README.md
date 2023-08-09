@@ -17,3 +17,8 @@ Theorem 1.2: curveF.m (1.3 hour)
 
 Remark 5.5: curveF_no_twist_Bi.m (18 seconds) curveF_twist_Bii.m (56 minutes) curveF_twist_Aiii.m (0.7 minutes)
 
+Theorem 6.1: E_F_C_high_level.m (17 minutes)
+
+Theorem 6.2: E_F_C_small_level.m (1.3 minute)
+
+Theorem 1.4: OptimalF7.m (1.3 minute)
