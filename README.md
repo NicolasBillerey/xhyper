@@ -6,7 +6,9 @@ Remark: The programs were run on a 2.2/3.0 Ghz 8 core Intel Xeon E5-2660 machine
 ********************************
 Volume I
 ********************************
-Theorem 1.5:  OptimalF11.txt (20 seconds) OptimalC11.txt (7 hours)
+Theorem 10.1 (= Theorem 1.5 when 2|a+b):  OptimalF11.txt (20 seconds) 
+
+Theorem 1.5 when 2\nmid a+b: OptimalC11.txt (7 hours)
 
 ********************************
 Volume II
