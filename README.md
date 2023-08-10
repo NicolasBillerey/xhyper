@@ -4,14 +4,14 @@ Electronic resources for the series of papers `On Darmon's program for the gener
 Remark: The programs were run on a 2.2/3.0 Ghz 8 core Intel Xeon E5-2660 machine with 64 Gb using Magma.
 
 ********************************
-Volume I
+Volume I - signature (11,11,p)
 ********************************
 Theorem 10.1 (= Theorem 1.5 when 2|a+b):  OptimalF11.txt (20 seconds) 
 
 Theorem 1.5 when 2\nmid a+b: OptimalC11.txt (7 hours)
 
 ********************************
-Volume II
+Volume II - signature (7,7,p)
 ********************************
 Theorem 3.6: curveE.m (10 seconds)
 
