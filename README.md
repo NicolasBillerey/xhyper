@@ -4,7 +4,7 @@ Electronic resources for the series of papers `On Darmon's program for the gener
 Remark: The programs were run on a 2.2/3.0 Ghz 8 core Intel Xeon E5-2660 machine with 64 Gb using Magma.
 
 ********************************
-Volume I - signature (11,11,p)
+Volume I - signature (11,11,p) (arXiv:2205.15861)
 ********************************
 Theorem 10.1 (= Theorem 1.5 when 2|a+b):  OptimalF11.txt (20 seconds) 
 
