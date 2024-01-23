@@ -1,0 +1,2127 @@
+Magma V2.27-7     Sun Nov 12 2023 22:21:20 on erable   [Seed = 3213592194]
+Type ? for help.  Type <Ctrl>-D to quit.
+Loading "curveE.m"
+Loading "fieldK.m"
+Loading "curveF.m"
+
+**************************************************
+* Using the curve E, we show that either         *
+* (1) 7 does not divide a+b and 4 divides ab, or *
+* (2) 7 divides a+b and 4 does not divide ab.    *
+**************************************************
+
+
+*******************************
+* Let us assume 4 divides ab. *
+*******************************
+
+
+The mod p representation of E(a,b) arises in level 2^2*7^2 = 196
+
+There are 3 newforms at level 196
+*********************************
+Form no 1 eliminated
+*********************************
+Form no 2 is not eliminated !
+*********************************
+Form no 3 eliminated
+
+Only form no 2 is not eliminated. Computing the difference of the a_3 
+coefficients, we check that it corresponds to the Frey curve E(1,0) :
+Form f no 1 : a_3(E) - a_3(f) = -2
+Form f no 2 : a_3(E) - a_3(f) = 0
+Form f no 3 : a_3(E) - a_3(f) = -a - 1
+Therefore, the mod p representations of E(a,b) and E(1,0) are isomorphic. 
+In particular, 7 does not divide a+b and hence we are in Case (1).
+++++++++++++++++++++++ Total running time (in hours) = 0.000
+
+***************************************
+* Let us assume 4 does not divide ab. *
+***************************************
+
+
+The mod p representation of E(a,b) arises in level 2^3*7^2 = 392
+There are 8 newforms at level 392
+*********************************
+Form no 1 is not eliminated !
+*********************************
+Form no 2 eliminated
+*********************************
+Form no 3 eliminated
+*********************************
+Form no 4 eliminated
+*********************************
+Form no 5 eliminated
+*********************************
+Form no 6 eliminated
+*********************************
+Form no 7 eliminated
+*********************************
+Form no 8 eliminated
+
+Only form no 1 is not eliminated. Computing the difference of the a_3 
+coefficients, we check that it corresponds to the Frey curve E(1,-1) :
+Form f no 1 : a_3(E) - a_3(f) = 0
+Form f no 2 : a_3(E) - a_3(f) = -2
+Form f no 3 : a_3(E) - a_3(f) = 1
+Form f no 4 : a_3(E) - a_3(f) = -4
+Form f no 5 : a_3(E) - a_3(f) = -1
+Form f no 6 : a_3(E) - a_3(f) = 2
+Form f no 7 : a_3(E) - a_3(f) = -a - 1
+Form f no 8 : a_3(E) - a_3(f) = -a - 1
+Therefore, the mod p representations of E(a,b) and E(1,-1) are isomorphic. 
+In particular, 7 divides a+b and hence we are in Case (2).
+++++++++++++++++++++++ Total running time (in hours) = 0.001
+
+**************************************************
+* Using the curve E, We have proved that either  *
+* (1) 7 does not divide a+b and 4 divides ab, or *
+* (2) 7 divides a+b and 4 does not divide ab.    *
+**************************************************
+
+++++++++++++++++++++++ Total running time (in hours) = 0.001
+
+**************************************************************************
+* We deal with the two remaining cases using the curve F and its twists. *
+**************************************************************************
+
+
+***************************************************************
+* Eliminating case (1): 7 not dividing a+b and 4 dividing ab. *
+***************************************************************
+
+Computing forms at level Q2^3*Q3...
+Done!
+There are  47 newforms
+++++++++++++++++++++++ 0.002
+
+We first perform standard elimination at level Q2^3*Q3 using primes q = 5, 13, 
+29, and 41 and the Frey curve twisted by -7:
+Performing standard elimination for 47 form(s) with set of auxiliary primes [ 5,
+13, 29, 41 ]
+
+Checking form no 1
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 1 is eliminated
+*************************************************************
+
+Checking form no 2
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 2 is eliminated
+*************************************************************
+
+Checking form no 3
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 3 is eliminated
+*************************************************************
+
+Checking form no 4
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 4 is eliminated
+*************************************************************
+
+Checking form no 5
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 5 is eliminated
+*************************************************************
+
+Checking form no 6
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 37 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 6 is eliminated
+*************************************************************
+
+Checking form no 7
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 37 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 7 is eliminated
+*************************************************************
+
+Checking form no 8
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 8 is eliminated
+*************************************************************
+
+Checking form no 9
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 9 is eliminated
+*************************************************************
+
+Checking form no 10
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 10 is eliminated
+*************************************************************
+
+Checking form no 11
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 11 is eliminated
+*************************************************************
+
+Checking form no 12
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 12 is eliminated
+*************************************************************
+
+Checking form no 13
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 13 is eliminated
+*************************************************************
+
+Checking form no 14
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 14 is eliminated
+*************************************************************
+
+Checking form no 15
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 15 is eliminated
+*************************************************************
+
+Checking form no 16
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 16 is eliminated
+*************************************************************
+
+Checking form no 17
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 17 is eliminated
+*************************************************************
+
+Checking form no 18
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 18 is eliminated
+*************************************************************
+
+Checking form no 19
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 19 is eliminated
+*************************************************************
+
+Checking form no 20
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 113, 641, 971 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 20 is eliminated
+*************************************************************
+
+Checking form no 21
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 19, 107, 1693, 2017, 15121 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 21 is eliminated
+*************************************************************
+
+Checking form no 22
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 19, 107, 1693, 2017, 15121 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 22 is eliminated
+*************************************************************
+
+Checking form no 23
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 113, 641, 971 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 23 is eliminated
+*************************************************************
+
+Checking form no 24
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 19, 23 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  { 5 }
+Form no 24
+with coefficient field : Number Field with defining polynomial x^3 + x^2 - 17*x 
+    - 25 over the Rational Field
+is not eliminated for prime(s) : { 5 }
+*************************************************************
+
+Checking form no 25
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 25 is eliminated
+*************************************************************
+
+Checking form no 26
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 113, 641, 971 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 26 is eliminated
+*************************************************************
+
+Checking form no 27
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 61 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 27 is eliminated
+*************************************************************
+
+Checking form no 28
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 59, 67 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 28 is eliminated
+*************************************************************
+
+Checking form no 29
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 19, 107, 1693, 2017, 15121 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 29 is eliminated
+*************************************************************
+
+Checking form no 30
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 13, 19, 1433, 6269, 9973 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 30 is eliminated
+*************************************************************
+
+Checking form no 31
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 53, 71, 389, 19681, 100361 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 31 is eliminated
+*************************************************************
+
+Checking form no 32
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 2819, 26111, 125813 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 32 is eliminated
+*************************************************************
+
+Checking form no 33
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 53, 71, 389, 19681, 100361 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 33 is eliminated
+*************************************************************
+
+Checking form no 34
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 2819, 26111, 125813 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 34 is eliminated
+*************************************************************
+
+Checking form no 35
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 13, 19, 1433, 6269, 9973 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 35 is eliminated
+*************************************************************
+
+Checking form no 36
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 53, 71, 389, 19681, 100361 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 36 is eliminated
+*************************************************************
+
+Checking form no 37
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 2819, 26111, 125813 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 37 is eliminated
+*************************************************************
+
+Checking form no 38
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 13, 19, 1433, 6269, 9973 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 38 is eliminated
+*************************************************************
+
+Checking form no 39
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 19, 1201, 14947, 18461, 
+351971 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 39 is eliminated
+*************************************************************
+
+Checking form no 40
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 19, 1201, 14947, 18461, 
+351971 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 40 is eliminated
+*************************************************************
+
+Checking form no 41
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 19, 1201, 14947, 18461, 
+351971 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 41 is eliminated
+*************************************************************
+
+Checking form no 42
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 89, 6733, 62423, 135842321 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 42 is eliminated
+*************************************************************
+
+Checking form no 43
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 857, 1229, 8443, 13913, 49123
+}
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 43 is eliminated
+*************************************************************
+
+Checking form no 44
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 857, 1229, 8443, 13913, 49123
+}
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 44 is eliminated
+*************************************************************
+
+Checking form no 45
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 857, 1229, 8443, 13913, 49123
+}
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 45 is eliminated
+*************************************************************
+
+Checking form no 46
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 89, 6733, 62423, 135842321 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 46 is eliminated
+*************************************************************
+
+Checking form no 47
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 89, 6733, 62423, 135842321 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 47 is eliminated
+*************************************************************
+
+++++++++++++++++++++++ 0.005
+
+The prime p = 5 survives for the form no 24; we discard it using refined 
+elimination with q = 13:
+Performing refined elimination with set of auxiliary primes [ 13 ]
+
+Dealing with q = 13
+Number of prime ideals remaining to eliminate =  0
+The form is eliminated
+*************************************************************
+
+++++++++++++++++++++++ 0.005
+
+
+***************************************************************
+* Eliminating case (2): 7 dividing a+b and 4 not dividing ab. *
+***************************************************************
+
+
+***********************************
+* Eliminating the subcase ab odd. *
+***********************************
+
+Computing forms at level Q2*Q3*Q7...
+Done!
+There are  5 newforms
+++++++++++++++++++++++ 0.006
+We first perform standard elimination at level Q2*Q3*Q7 using primes q = 5, 13, 
+29, and 41 and the Frey curve not twisted:
+Performing standard elimination for 5 form(s) with set of auxiliary primes [ 5, 
+13, 29, 41 ]
+
+Checking form no 1
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 37 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 1 is eliminated
+*************************************************************
+
+Checking form no 2
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 2 is eliminated
+*************************************************************
+
+Checking form no 3
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 61 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  { 5, 13 }
+Form no 3
+with coefficient field : Number Field with defining polynomial x^3 - 3*x^2 - 
+    10*x - 1 over the Rational Field
+is not eliminated for prime(s) : { 5, 13 }
+*************************************************************
+
+Checking form no 4
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 59, 67 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 4 is eliminated
+*************************************************************
+
+Checking form no 5
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 53, 73 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 5 is eliminated
+*************************************************************
+
+++++++++++++++++++++++ 0.006
+
+The primes p = 5, 13 survive for the form no 3; we discard p = 5 using refined 
+elimination with q = 29:
+Performing refined elimination with set of auxiliary primes [ 29 ]
+
+Dealing with q = 29
+Number of prime ideals remaining to eliminate =  1
+The form with coefficient field : Number Field with defining polynomial x^3 - 
+    3*x^2 - 10*x - 1 over the Rational Field
+is not eliminated for 1 prime ideal(s) above : { 13 }
+*************************************************************
+
+++++++++++++++++++++++ 0.006
+
+The prime p = 5 is eliminated for form no 3 (but the prime p = 13 still 
+survives).
+
+For each form f at level Q2*Q3*Q7, we compute Norm(a_Q(f)-(Norm(Q)+1)) mod 13 
+for any of the three prime ideals Q above 29 in K:
+
+Form no 1 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 7
+Form no 2 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 12
+Form no 3 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 0
+Form no 4 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 8
+Form no 5 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 12
+
+Hence form no 3 is the *unique* form with reducible mod 13 representation whose 
+existence is predicted by Martin's result.
+It has exactly 1 prime ideal above 13 in its coefficient field.
+++++++++++++++++++++++ 0.006
+
+
+**********************************************************
+* Eliminating the subcase ab divisible by 2 exactly once *
+**********************************************************
+
+Computing forms at level Q2^3*Q3*Q7...
+Done !
+There are  121 newforms
+++++++++++++++++++++++ 0.641
+We first perform standard elimination at level Q2^3*Q3*Q7 using primes q = 5, 
+13, 29, and 41 and the Frey curve twisted by w2:
+Performing standard elimination for 121 form(s) with set of auxiliary primes [ 
+5, 13, 29, 41 ]
+
+Checking form no 1
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 1 is eliminated
+*************************************************************
+
+Checking form no 2
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 2 is eliminated
+*************************************************************
+
+Checking form no 3
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 3 is eliminated
+*************************************************************
+
+Checking form no 4
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 4 is eliminated
+*************************************************************
+
+Checking form no 5
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 5 is eliminated
+*************************************************************
+
+Checking form no 6
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 6 is eliminated
+*************************************************************
+
+Checking form no 7
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 7 is eliminated
+*************************************************************
+
+Checking form no 8
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 8 is eliminated
+*************************************************************
+
+Checking form no 9
+
+Dealing with q = 5
+Dealing with q = 13
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 9 is eliminated
+*************************************************************
+
+Checking form no 10
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 10 is eliminated
+*************************************************************
+
+Checking form no 11
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 11 is eliminated
+*************************************************************
+
+Checking form no 12
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 37 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 12 is eliminated
+*************************************************************
+
+Checking form no 13
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 13 is eliminated
+*************************************************************
+
+Checking form no 14
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 14 is eliminated
+*************************************************************
+
+Checking form no 15
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 15 is eliminated
+*************************************************************
+
+Checking form no 16
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 16 is eliminated
+*************************************************************
+
+Checking form no 17
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 17 is eliminated
+*************************************************************
+
+Checking form no 18
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 18 is eliminated
+*************************************************************
+
+Checking form no 19
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 19 is eliminated
+*************************************************************
+
+Checking form no 20
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 20 is eliminated
+*************************************************************
+
+Checking form no 21
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 21 is eliminated
+*************************************************************
+
+Checking form no 22
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 22 is eliminated
+*************************************************************
+
+Checking form no 23
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 23 is eliminated
+*************************************************************
+
+Checking form no 24
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 17, 71 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 24 is eliminated
+*************************************************************
+
+Checking form no 25
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 25 is eliminated
+*************************************************************
+
+Checking form no 26
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 26 is eliminated
+*************************************************************
+
+Checking form no 27
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 27 is eliminated
+*************************************************************
+
+Checking form no 28
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 28 is eliminated
+*************************************************************
+
+Checking form no 29
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 29 is eliminated
+*************************************************************
+
+Checking form no 30
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 30 is eliminated
+*************************************************************
+
+Checking form no 31
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 31 is eliminated
+*************************************************************
+
+Checking form no 32
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 32 is eliminated
+*************************************************************
+
+Checking form no 33
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 33 is eliminated
+*************************************************************
+
+Checking form no 34
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 34 is eliminated
+*************************************************************
+
+Checking form no 35
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 35 is eliminated
+*************************************************************
+
+Checking form no 36
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 36 is eliminated
+*************************************************************
+
+Checking form no 37
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 37 is eliminated
+*************************************************************
+
+Checking form no 38
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 38 is eliminated
+*************************************************************
+
+Checking form no 39
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 17, 71 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 39 is eliminated
+*************************************************************
+
+Checking form no 40
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 40 is eliminated
+*************************************************************
+
+Checking form no 41
+
+Dealing with q = 5
+Dealing with q = 13
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 41 is eliminated
+*************************************************************
+
+Checking form no 42
+
+Dealing with q = 5
+Dealing with q = 13
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 42 is eliminated
+*************************************************************
+
+Checking form no 43
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 43 is eliminated
+*************************************************************
+
+Checking form no 44
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 44 is eliminated
+*************************************************************
+
+Checking form no 45
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 45 is eliminated
+*************************************************************
+
+Checking form no 46
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 46 is eliminated
+*************************************************************
+
+Checking form no 47
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 47 is eliminated
+*************************************************************
+
+Checking form no 48
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 48 is eliminated
+*************************************************************
+
+Checking form no 49
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 49 is eliminated
+*************************************************************
+
+Checking form no 50
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 50 is eliminated
+*************************************************************
+
+Checking form no 51
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 51 is eliminated
+*************************************************************
+
+Checking form no 52
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 52 is eliminated
+*************************************************************
+
+Checking form no 53
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 53 is eliminated
+*************************************************************
+
+Checking form no 54
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 54 is eliminated
+*************************************************************
+
+Checking form no 55
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 17, 71 }
+Dealing with q = 13
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 55 is eliminated
+*************************************************************
+
+Checking form no 56
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 37 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  { 5 }
+Form no 56
+with coefficient field : Rational Field
+is not eliminated for prime(s) : { 5 }
+*************************************************************
+
+Checking form no 57
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 269, 887 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 57 is eliminated
+*************************************************************
+
+Checking form no 58
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 47, 223 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 58 is eliminated
+*************************************************************
+
+Checking form no 59
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 47, 223 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 59 is eliminated
+*************************************************************
+
+Checking form no 60
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 47, 223 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 60 is eliminated
+*************************************************************
+
+Checking form no 61
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 61 is eliminated
+*************************************************************
+
+Checking form no 62
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 269, 887 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 62 is eliminated
+*************************************************************
+
+Checking form no 63
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 23, 269, 887 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 63 is eliminated
+*************************************************************
+
+Checking form no 64
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 64 is eliminated
+*************************************************************
+
+Checking form no 65
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 31 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 65 is eliminated
+*************************************************************
+
+Checking form no 66
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 3643, 5801, 40177, 1724999, 
+101457523, 142920737, 938741042298480053 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 66 is eliminated
+*************************************************************
+
+Checking form no 67
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 3643, 5801, 40177, 1724999, 
+101457523, 142920737, 938741042298480053 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 67 is eliminated
+*************************************************************
+
+Checking form no 68
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 24121, 64468429, 1502666923, 
+15320626883, 104289776581567307 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 68 is eliminated
+*************************************************************
+
+Checking form no 69
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 19, 257, 919, 1439, 1451, 12953, 
+1199089, 4585297, 831033667 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 69 is eliminated
+*************************************************************
+
+Checking form no 70
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 24121, 64468429, 1502666923, 
+15320626883, 104289776581567307 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 70 is eliminated
+*************************************************************
+
+Checking form no 71
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 19, 257, 919, 1439, 1451, 12953, 
+1199089, 4585297, 831033667 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 71 is eliminated
+*************************************************************
+
+Checking form no 72
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 19, 257, 919, 1439, 1451, 12953, 
+1199089, 4585297, 831033667 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 72 is eliminated
+*************************************************************
+
+Checking form no 73
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 24121, 64468429, 1502666923, 
+15320626883, 104289776581567307 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 73 is eliminated
+*************************************************************
+
+Checking form no 74
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 3643, 5801, 40177, 1724999, 
+101457523, 142920737, 938741042298480053 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 74 is eliminated
+*************************************************************
+
+Checking form no 75
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 79, 139, 5179, 88261, 723433553, 
+2515607169149, 1273244019162793031 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 75 is eliminated
+*************************************************************
+
+Checking form no 76
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 67, 659, 937, 91331, 443753, 
+12509115231229, 2886657431940538987 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 76 is eliminated
+*************************************************************
+
+Checking form no 77
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 197, 241, 4007, 79601, 
+209688630713, 359077386172543447 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 77 is eliminated
+*************************************************************
+
+Checking form no 78
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 79, 139, 5179, 88261, 723433553, 
+2515607169149, 1273244019162793031 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 78 is eliminated
+*************************************************************
+
+Checking form no 79
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 37, 47, 167, 1259, 2357, 
+108967, 229373, 4242919, 52006301139329741 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  { 5 }
+Form no 79
+with coefficient field : Number Field with defining polynomial x^11 + 3*x^10 - 
+    58*x^9 - 151*x^8 + 1209*x^7 + 2516*x^6 - 11303*x^5 - 16526*x^4 + 45576*x^3 +
+    36088*x^2 - 57184*x - 8224 over the Rational Field
+is not eliminated for prime(s) : { 5 }
+*************************************************************
+
+Checking form no 80
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 67, 659, 937, 91331, 443753, 
+12509115231229, 2886657431940538987 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 80 is eliminated
+*************************************************************
+
+Checking form no 81
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 197, 241, 4007, 79601, 
+209688630713, 359077386172543447 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 81 is eliminated
+*************************************************************
+
+Checking form no 82
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 67, 659, 937, 91331, 443753, 
+12509115231229, 2886657431940538987 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 82 is eliminated
+*************************************************************
+
+Checking form no 83
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 37, 47, 167, 1259, 2357, 
+108967, 229373, 4242919, 52006301139329741 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 83 is eliminated
+*************************************************************
+
+Checking form no 84
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 37, 47, 167, 1259, 2357, 
+108967, 229373, 4242919, 52006301139329741 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 84 is eliminated
+*************************************************************
+
+Checking form no 85
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 197, 241, 4007, 79601, 
+209688630713, 359077386172543447 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 85 is eliminated
+*************************************************************
+
+Checking form no 86
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 79, 139, 5179, 88261, 723433553, 
+2515607169149, 1273244019162793031 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 86 is eliminated
+*************************************************************
+
+Checking form no 87
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 47, 53, 409, 577, 351587, 
+96692461, 8029030609, 89994476041, 1707827167133 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 87 is eliminated
+*************************************************************
+
+Checking form no 88
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 47, 53, 409, 577, 351587, 
+96692461, 8029030609, 89994476041, 1707827167133 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 88 is eliminated
+*************************************************************
+
+Checking form no 89
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 47, 53, 409, 577, 351587, 
+96692461, 8029030609, 89994476041, 1707827167133 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 89 is eliminated
+*************************************************************
+
+Checking form no 90
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 31, 61, 509, 571, 20921, 
+31771 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 61 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 90 is eliminated
+*************************************************************
+
+Checking form no 91
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 23, 151, 197773, 529531 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 91 is eliminated
+*************************************************************
+
+Checking form no 92
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 193, 2069, 2057291, 7912039, 
+129362221, 95175139043, 296949686853459060671 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 92 is eliminated
+*************************************************************
+
+Checking form no 93
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 193, 2069, 2057291, 7912039, 
+129362221, 95175139043, 296949686853459060671 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 93 is eliminated
+*************************************************************
+
+Checking form no 94
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 43, 47, 73, 263, 3631, 372797 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 94 is eliminated
+*************************************************************
+
+Checking form no 95
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 193, 2069, 2057291, 7912039, 
+129362221, 95175139043, 296949686853459060671 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 95 is eliminated
+*************************************************************
+
+Checking form no 96
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 151, 673135753, 730190861, 
+23445916033, 382951977899, 638483042150227, 34988177108895761 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 96 is eliminated
+*************************************************************
+
+Checking form no 97
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 151, 673135753, 730190861, 
+23445916033, 382951977899, 638483042150227, 34988177108895761 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 97 is eliminated
+*************************************************************
+
+Checking form no 98
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 103, 977, 3821, 7001, 93776933, 
+231354439, 306800279, 59304484489, 55672422640393217459 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 98 is eliminated
+*************************************************************
+
+Checking form no 99
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 41, 307, 8219, 401519 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 99 is eliminated
+*************************************************************
+
+Checking form no 100
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 13, 53, 769, 4875803, 
+26041759 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13, 53 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 100 is eliminated
+*************************************************************
+
+Checking form no 101
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 103, 977, 3821, 7001, 93776933, 
+231354439, 306800279, 59304484489, 55672422640393217459 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 101 is eliminated
+*************************************************************
+
+Checking form no 102
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 103, 977, 3821, 7001, 93776933, 
+231354439, 306800279, 59304484489, 55672422640393217459 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 102 is eliminated
+*************************************************************
+
+Checking form no 103
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 1801, 3719, 149749, 515621, 
+25552441, 1200074814923, 1419291337083053597 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 103 is eliminated
+*************************************************************
+
+Checking form no 104
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 1801, 3719, 149749, 515621, 
+25552441, 1200074814923, 1419291337083053597 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 104 is eliminated
+*************************************************************
+
+Checking form no 105
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 41, 56417, 23517287, 252884771 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 105 is eliminated
+*************************************************************
+
+Checking form no 106
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 17, 151, 673135753, 730190861, 
+23445916033, 382951977899, 638483042150227, 34988177108895761 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 106 is eliminated
+*************************************************************
+
+Checking form no 107
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 1801, 3719, 149749, 515621, 
+25552441, 1200074814923, 1419291337083053597 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 107 is eliminated
+*************************************************************
+
+Checking form no 108
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 13, 241, 182857, 459929, 
+6580008837691, 185675361839767, 179357675716569829686228199 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 108 is eliminated
+*************************************************************
+
+Checking form no 109
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 47, 79, 439, 24407, 409726523, 
+360485950723, 1074788028829540763, 20785838318304676831 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 109 is eliminated
+*************************************************************
+
+Checking form no 110
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 13, 241, 182857, 459929, 
+6580008837691, 185675361839767, 179357675716569829686228199 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 110 is eliminated
+*************************************************************
+
+Checking form no 111
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 13, 241, 182857, 459929, 
+6580008837691, 185675361839767, 179357675716569829686228199 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 111 is eliminated
+*************************************************************
+
+Checking form no 112
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 47, 79, 439, 24407, 409726523, 
+360485950723, 1074788028829540763, 20785838318304676831 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 112 is eliminated
+*************************************************************
+
+Checking form no 113
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 47, 79, 439, 24407, 409726523, 
+360485950723, 1074788028829540763, 20785838318304676831 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 113 is eliminated
+*************************************************************
+
+Checking form no 114
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 43, 83, 277, 883, 1013, 4993, 
+8863, 564197, 928849, 1970083, 538142587, 4538213062875183845715659339857 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 114 is eliminated
+*************************************************************
+
+Checking form no 115
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 281, 907, 351492227, 
+526416749, 5627030556109, 1504441618574387, 5267218097957181390798419 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 115 is eliminated
+*************************************************************
+
+Checking form no 116
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 281, 907, 351492227, 
+526416749, 5627030556109, 1504441618574387, 5267218097957181390798419 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 116 is eliminated
+*************************************************************
+
+Checking form no 117
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 281, 907, 351492227, 
+526416749, 5627030556109, 1504441618574387, 5267218097957181390798419 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 117 is eliminated
+*************************************************************
+
+Checking form no 118
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 43, 83, 277, 883, 1013, 4993, 
+8863, 564197, 928849, 1970083, 538142587, 4538213062875183845715659339857 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 118 is eliminated
+*************************************************************
+
+Checking form no 119
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 43, 83, 277, 883, 1013, 4993, 
+8863, 564197, 928849, 1970083, 538142587, 4538213062875183845715659339857 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 119 is eliminated
+*************************************************************
+
+Checking form no 120
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 67, 229, 353, 367, 97649, 
+2748371 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 120 is eliminated
+*************************************************************
+
+Checking form no 121
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 53, 67, 127, 373, 1019, 3407, 
+9437, 18959 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 121 is eliminated
+*************************************************************
+
+++++++++++++++++++++++ 0.656
+
+The prime p = 5 survives for the forms no 56 and 79; we discard it using refined
+elimination with q = 83 and q = 29 respectively:
+
+Dealing with form no 56:
+
+Performing refined elimination with set of auxiliary primes [ 83 ]
+
+Dealing with q = 83
+Number of prime ideals remaining to eliminate =  0
+The form is eliminated
+*************************************************************
+
+
+Dealing with form no 79:
+
+Performing refined elimination with set of auxiliary primes [ 29 ]
+
+Dealing with q = 29
+Number of prime ideals remaining to eliminate =  0
+The form is eliminated
+*************************************************************
+
+++++++++++++++++++++++ 0.660
+
+
+***********************************************************
+* We have proved that x^7 + y^7 = 3z^p has no non trivial *
+* solutions for p = 5 or p > 7 using E and F.             *
+***********************************************************
+
+
+Total time: 2373.489 seconds, Total memory usage: 977.84MB

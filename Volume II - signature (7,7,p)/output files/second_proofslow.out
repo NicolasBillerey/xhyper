@@ -1,0 +1,463 @@
+Magma V2.27-7     Sun Nov 12 2023 22:21:31 on erable   [Seed = 3045166211]
+Type ? for help.  Type <Ctrl>-D to quit.
+Loading "fieldK.m"
+Loading "curveF.m"
+Loading "curveCslow.m"
+
+*****************************************************************
+* We eliminate in turn each of the following cases:             *
+* (1) ab odd and 7 does not divide a + b using F twisted by -7; *
+* (2) ab odd and 7 divides a + b using F;                       *
+* (3) ab even using C.                                          *
+*****************************************************************
+
+
+****************************************************
+* (1) We use F twisted by -7 to eliminate the case *
+* ab odd and 7 does not divide a + b               *
+****************************************************
+
+
+Assume for a contradiction that ab is odd and 7 does not divide a + b.
+The mod p representation of F(a,b) twisted by -7 arises in level Q2*Q3
+
+Computing forms at level Q2*Q3...
+Done!
+There are 2 newforms
+++++++++++++++++++++++ 0.000
+
+We perform standard elimination at level Q2*Q3 using primes q = 5, 13, and 29 
+and the Frey curve F twisted by -7:
+Performing standard elimination for 2 form(s) with set of auxiliary primes [ 5, 
+13, 29 ]
+
+Checking form no 1
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 1 is eliminated
+*************************************************************
+
+Checking form no 2
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 2 is eliminated
+*************************************************************
+
+++++++++++++++++++++++ 0.000
+
+******************************************
+* We have eliminated all the forms.      *
+* Therefore, we have ruled out case (1). *
+******************************************
+
+
+****************************************************
+* (2) We use F (not twisted) to eliminate the case *
+* ab odd and 7 divides a + b                       *
+****************************************************
+
+
+Assume for a contradiction that ab is odd and 7 divides a + b.
+The mod p representation of F(a,b) arises in level Q2*Q3*Q7
+
+Computing forms at level Q2*Q3*Q7...
+Done!
+There are 5 newforms
+++++++++++++++++++++++ 0.001
+We first perform standard elimination at level Q2*Q3*Q7 using primes q = 5, 13, 
+29, and 41 and the Frey curve not twisted:
+Performing standard elimination for 5 form(s) with set of auxiliary primes [ 5, 
+13, 29, 41 ]
+
+Checking form no 1
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 37 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  {}
+Form no 1 is eliminated
+*************************************************************
+
+Checking form no 2
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 2 is eliminated
+*************************************************************
+
+Checking form no 3
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 61 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 5, 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  { 5, 13 }
+Form no 3
+with coefficient field : Number Field with defining polynomial x^3 - 3*x^2 - 
+    10*x - 1 over the Rational Field
+is not eliminated for prime(s) : { 5, 13 }
+*************************************************************
+
+Checking form no 4
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 13, 59, 67 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 29
+Prime exponents remaining to eliminate =  { 13 }
+Dealing with q = 41
+Prime exponents remaining to eliminate =  {}
+Form no 4 is eliminated
+*************************************************************
+
+Checking form no 5
+
+Dealing with q = 5
+This form can be eliminated for large enough p !
+Prime exponents remaining to eliminate =  { 5, 11, 53, 73 }
+Dealing with q = 13
+Prime exponents remaining to eliminate =  {}
+Form no 5 is eliminated
+*************************************************************
+
+++++++++++++++++++++++ 0.001
+
+The primes p = 5, 13 survive for the form no 3; we discard p = 5 using refined 
+elimination with q = 29:
+Performing refined elimination with set of auxiliary primes [ 29 ]
+
+Dealing with q = 29
+Number of prime ideals remaining to eliminate =  1
+The form with coefficient field : Number Field with defining polynomial x^3 - 
+    3*x^2 - 10*x - 1 over the Rational Field
+is not eliminated for 1 prime ideal(s) above : { 13 }
+*************************************************************
+
+++++++++++++++++++++++ 0.001
+
+The prime p = 5 is eliminated for form no 3 (but the prime p = 13 still 
+survives).
+
+For each form f at level Q2*Q3*Q7, we compute Norm(a_Q(f)-(Norm(Q)+1)) mod 13 
+for any of the three prime ideals Q above 29 in K:
+
+Form no 1 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 7
+Form no 2 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 12
+Form no 3 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 0
+Form no 4 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 8
+Form no 5 : Norm(a_Q(f)-(Norm(Q)+1)) mod 13 = 12
+
+Hence form no 3 is the *unique* form with reducible mod 13 representation whose 
+existence is predicted by Martin's result.
+It has exactly 1 prime ideal above 13 in its coefficient field.
+++++++++++++++++++++++ 0.001
+
+
+******************************************
+* We have eliminated all the forms.      *
+* Therefore, we have ruled out case (2). *
+******************************************
+
+
+**********************************************
+* (3) We use C to eliminate the case ab even *
+**********************************************
+
+
+Assume for a contradiction that ab is even.
+The mod p representation of J(a,b) arises in level Q2^2*Q3*Q7^2.
+
+Computing forms at level Q2^2*Q3*Q7^2...
+Done !
+There are 61 newforms at level Q2^2*Q3*Q7^2.
+++++++++++++++++++++++ Total running time (in hours) = 0.115
+
+Eliminating forms by checking whether K is included in the field of 
+coefficients...
+Done!
+
+
+The forms at level Q2^2*Q3*Q7^2 whose coefficient field contains K are the forms
+labelled:
+[ 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 28, 33, 38, 41, 42, 45, 46, 47, 
+48, 51, 57, 58, 60, 61 ]
+
+
+The degrees of the coefficient fields of these forms are:
+[ 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 9, 9, 12, 12, 15, 18, 18, 21, 21, 36, 36, 
+54, 54 ]
+
+
+Eliminating form 38
+Performing standard elimination with 1 prime ideal(s) above 5
+Form not eliminated using [
+    Principal Prime Ideal
+    Generator:
+        [5, 0, 0]
+]
+
+>> B5:={x : x in B5 | x notin {1,2,3,7}};
+            ^
+Runtime error in for: Iteration is not possible over this object
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 43, 281 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 13 }
+++++++++++++++++++++++ Total running time (in hours) = 0.119
+
+Eliminating form 16
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 43, 281 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 13 }
+
+We use refined elimination with auxiliary prime q = 29 to deal with p = 13.
+Form eliminated for p = 13
+++++++++++++++++++++++ Total running time (in hours) = 0.121
+
+Eliminating form 26
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 17 }
+Performing standard elimination with 2 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.121
+
+Eliminating form 33
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 31, 79, 127, 7549, 47977, 141761 }
+Performing standard elimination with 1 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.121
+
+Eliminating form 41
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 17, 67, 12163, 185767 }
+Performing standard elimination with 1 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.121
+
+Eliminating form 42
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 11, 8011, 9181, 48673, 56431 }
+Performing standard elimination with 1 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.121
+
+Eliminating form 45
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 11, 17, 59, 89, 137, 173, 193, 
+1815911 }
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 5 }
+Performing standard elimination with 1 prime ideal(s) above 11
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.122
+
+Eliminating form 12
+Performing standard elimination with 1 prime ideal(s) above 29
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 83, 139, 167, 
+181, 211 }
+Performing standard elimination with 1 prime ideal(s) above 17
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.142
+
+Eliminating form 28
+Performing standard elimination with 1 prime ideal(s) above 29
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 83, 139, 167, 
+181, 211 }
+Performing standard elimination with 1 prime ideal(s) above 17
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.144
+
+Eliminating form 17
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 19 }
+Performing standard elimination with 1 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.145
+
+Eliminating form 24
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 19 }
+Performing standard elimination with 1 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.145
+
+Eliminating form 18
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 83 }
+Performing standard elimination with 1 prime ideal(s) above 5
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.145
+
+Eliminating form 19
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 83 }
+Performing standard elimination with 1 prime ideal(s) above 5
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.145
+
+Eliminating form 20
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 167, 197, 239, 
+349, 421, 461 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 13, 41, 71 }
+Performing standard elimination with 1 prime ideal(s) above 17
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.147
+
+Eliminating form 21
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 167, 197, 239, 
+349, 421, 461 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 13, 41, 71 }
+Performing standard elimination with 1 prime ideal(s) above 17
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.150
+
+Eliminating form 22
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 113, 139, 181, 
+239, 307, 379 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 13, 29 }
+Performing standard elimination with 1 prime ideal(s) above 17
+We still have to eliminate exponents p = { 13 }
+We use refined elimination with auxiliary prime q = 29 to deal with p = 13:
+Form eliminated for p = 13
+++++++++++++++++++++++ Total running time (in hours) = 0.153
+
+Eliminating form 23
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 13, 29, 41, 43, 71, 113, 139, 181, 
+239, 307, 379 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 13, 29 }
+Performing standard elimination with 1 prime ideal(s) above 17
+We still have to eliminate exponents p = { 13 }
+We use refined elimination with auxiliary prime q = 29 to deal with p = 13:
+Form eliminated for p = 13
+++++++++++++++++++++++ Total running time (in hours) = 0.158
+
+Eliminating form 46
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 19, 31, 223, 1543, 912467, 
+4393751, 8526541, 223221043 }
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 223 }
+Performing standard elimination with 1 prime ideal(s) above 11
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.159
+
+Eliminating form 47
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 19, 31, 223, 1543, 912467, 
+4393751, 8526541, 223221043 }
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 223 }
+Performing standard elimination with 1 prime ideal(s) above 11
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.159
+
+Eliminating form 48
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 79, 131, 223, 617, 2731, 2791, 
+5011, 17959, 18121, 93523, 22564695677 }
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 5 }
+Performing standard elimination with 1 prime ideal(s) above 11
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.161
+
+Eliminating form 51
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 79, 131, 223, 617, 2731, 2791, 
+5011, 17959, 18121, 93523, 22564695677 }
+Performing standard elimination with 1 prime ideal(s) above 13
+We still have to eliminate exponents p = { 5 }
+Performing standard elimination with 1 prime ideal(s) above 11
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.162
+
+Eliminating form 57
+Performing standard elimination with 1 prime ideal(s) above 29
+We still have to eliminate exponents p = { 13, 29, 71, 113, 127, 211, 433, 839, 
+911, 1231, 1567, 2143, 3163, 4229, 4327, 4397, 8231, 9437, 10331, 16619, 16729, 
+22093, 56813, 141653, 696263, 1380427, 1748291, 8325227, 49971179, 286550543, 
+356201567, 475386073, 728136151, 1992108439, 2295917093, 5715053959, 8995180517,
+23396769733, 30032023127, 150125111233, 229794170059, 458963737471, 
+12806512574701, 18569663023031, 21190233303079, 51959344171211, 
+1570581152312551, 32758788813154067, 161974247926637551, 39727850137812829831, 
+3828873499843920956959, 1832669639774520439843091 }
+Performing standard elimination with 1 prime ideal(s) above 5
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.174
+
+Eliminating form 58
+Performing standard elimination with 1 prime ideal(s) above 29
+We still have to eliminate exponents p = { 13, 29, 71, 113, 127, 211, 433, 839, 
+911, 1231, 1567, 2143, 3163, 4229, 4327, 4397, 8231, 9437, 10331, 16619, 16729, 
+22093, 56813, 141653, 696263, 1380427, 1748291, 8325227, 49971179, 286550543, 
+356201567, 475386073, 728136151, 1992108439, 2295917093, 5715053959, 8995180517,
+23396769733, 30032023127, 150125111233, 229794170059, 458963737471, 
+12806512574701, 18569663023031, 21190233303079, 51959344171211, 
+1570581152312551, 32758788813154067, 161974247926637551, 39727850137812829831, 
+3828873499843920956959, 1832669639774520439843091 }
+Performing standard elimination with 1 prime ideal(s) above 5
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.186
+
+Eliminating form 60
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 11, 23, 47, 97, 103, 113, 953, 
+2161, 15649, 281249, 2196641, 10660183, 35035159, 168336239, 388163471, 
+837088409, 131083603289, 530829293303, 1364428460519604926858139815959 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 5, 11, 23, 47 }
+Performing standard elimination with 1 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.440
+
+Eliminating form 61
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5, 11, 23, 47, 97, 103, 113, 953, 
+2161, 15649, 281249, 2196641, 10660183, 35035159, 168336239, 388163471, 
+837088409, 131083603289, 530829293303, 1364428460519604926858139815959 }
+Performing standard elimination with 1 prime ideal(s) above 11
+We still have to eliminate exponents p = { 5, 11, 23, 47 }
+Performing standard elimination with 1 prime ideal(s) above 13
+Form eliminated !
+++++++++++++++++++++++ Total running time (in hours) = 0.694
+
+All forms were eliminated.
+
+********************************************************
+* The main theorem is proved using curves E, F and C ! *
+********************************************************
+
+
+Total time: 2495.989 seconds, Total memory usage: 2130.84MB
