@@ -29,7 +29,7 @@ curveF.m: Functions related to the Frey elliptic curve F/K
 
 curveC.m: Functions related to the Kraus' Frey hyperelliptic curve C and its Jacobian J/K
 
-curveCslow.m: Only basic versions of the functions from the file curveC.m related to the Kraus' Frey hyperelliptic curve C and its Jacobian J/K, i.e. without the improvements explained in \S 7.2.2-7.2.4
+curveCslow.m: Only basic versions of the functions from the file curveC.m related to the Kraus' Frey hyperelliptic curve C and its Jacobian J/K, i.e. without the improvements explained in §§7.2.2-7.2.4
 
 
 * Files supporting assertions made in the paper:
