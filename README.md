@@ -44,7 +44,7 @@ first_proof_variant.m: Variant of the first proof of our main theorem using the 
 
 second_proof.m: Second proof of our main theorem using C in the case ab even and (twists of) F in the case ab odd (~10 minutes)
 
-second_proofslow.m: Second proof of our main theorem using C in the case ab even and (twists of) F in the case ab odd, but without using the improvements explained in \S 7.2.2-7.2.4 (~40 minutes)
+second_proofslow.m: Second proof of our main theorem using C in the case ab even and (twists of) F in the case ab odd, but without using the improvements explained in §§7.2.2-7.2.4 (~40 minutes)
 
 third_proof.m: Third (and fastest of all) proof of our main theorem using E, F and C (~1 minute)
 
