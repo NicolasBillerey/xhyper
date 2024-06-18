@@ -138,7 +138,9 @@ function BoundF(forms,twist,AuxiliaryPrimes);
 					end if;
 					Sf:=Sf meet Sq;
 					Sf:={p : p in Sf | p gt 3 and p ne 7};
-					print "Prime exponents remaining to eliminate = ",Sf;
+					if Sf ne {} then
+                        print "Prime exponents remaining to eliminate =",Sf;
+                    end if;
 			    end if;
 			end if;
 		end for;
