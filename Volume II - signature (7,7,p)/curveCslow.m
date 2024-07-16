@@ -113,8 +113,13 @@ function BoundFormC(QQs,f,LL,exponents,toLL)
 			print "Form eliminated !";
 			return B, true;
 		else		
-			print "We still have to eliminate exponents p =",B;
-			return B, false;
+			if #exponents eq 0 then
+                print "We still have to eliminate exponents p =",B;
+                return B, false;
+            else
+                print "We still have to eliminate exponents p =",B meet exponents;
+                return B meet exponents, false;
+            end if;
 		end if;
 	end if;
 end function;

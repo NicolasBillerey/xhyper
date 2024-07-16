@@ -10,8 +10,6 @@ load "curveC.m";
 
 
 
-
-
 print "";
 print "***********************************************************************";
 print "* We eliminate in turn each of the following cases:                   *";
@@ -163,6 +161,7 @@ print "******************************************";
 print "";
 
 print "++++++++++++++++++++++ Total running time (in hours) =", Realhours();
+
 
 
 print "";

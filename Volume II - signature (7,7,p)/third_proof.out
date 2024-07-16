@@ -1,0 +1,13 @@
+Magma V2.28-9     Tue Jul 16 2024 15:35:10 on nicolas-Latitude-E5420 [Seed = 3308639454]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "third_proof.m"
+Loading "curveE.m"
+Loading "fieldK.m"
+Loading "curveF.m"
+Loading "curveC.m"
+
+In file "curveC.m", line 146, column 1:
+>> end function;
+   ^
+User error: bad syntax
