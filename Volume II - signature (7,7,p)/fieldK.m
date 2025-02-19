@@ -38,19 +38,3 @@ t0:=Realtime();
 function Realhours();
    return Realtime(t0)/3600;
 end function;
-
-
-// This function is necessary to deal with some incompatibility of universes arising in the output of some Magma functions.
-// Return the set of prime divisors of x, with special treatment when x is zero or a unit.
-S:=Parent({1,2,3});
-function PrimeSet(x)
-	x:=Integers()!x;
-
-	if x eq 0 then
-	return S!{0};
-	elif x in {-1,1} then
-	return S!{x};
-	else 
-	return S!Set(PrimeDivisors(x));
-	end if;
-end function;
