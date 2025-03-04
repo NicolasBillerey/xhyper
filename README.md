@@ -11,7 +11,7 @@ Volume I - signature (11,11,p) (<a href="https://arxiv.org/abs/2205.15861">arXiv
 
 * General library files of functions used by files supporting assertions made in the paper:
 
-11-fieldK.m: Functions related to the cubic field K = Q(zeta_11)^+ (and other useful functions)
+11-fieldK.m: Functions related to the field K = Q(zeta_11)^+ (and other useful functions)
 
 11-curveF.m: Functions related to the Frey elliptic curve F/K
 
