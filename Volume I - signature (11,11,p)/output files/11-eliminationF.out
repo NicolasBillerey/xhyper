@@ -1,0 +1,100 @@
+Magma V2.28-9     Sun Mar  2 2025 23:30:15 on erable   [Seed = 2166499028]
+Type ? for help.  Type <Ctrl>-D to quit.
+Loading "11-fieldK.m"
+Loading "11-curveF.m"
+
+Computing newforms of level Q2. Dimension of the space: 2
+There is 1 newform to eliminate.
+Performing standard elimination for 1 form(s) with set of auxiliary primes [ 3, 
+23 ]
+
+Checking form no 1
+
+Dealing with q = 3
+This form can be eliminated for large enough p !
+Prime exponent(s) remaining to eliminate = { 5, 29, 31 }
+Dealing with q = 23
+Prime exponent(s) remaining to eliminate = { 5, 31 }
+Form no 1
+with coefficient field : Number Field with defining polynomial x^2 + x - 1 over 
+the Rational Field
+is not eliminated for prime(s) : { 5, 31 }
+*************************************************************
+
+Performing refined elimination to eliminate exponent 5 with set of auxiliary 
+primes { 23 }
+
+Dealing with q = 23
+Prime ideal(s) remaining to eliminate = {
+    Prime Ideal of OF
+    Two element generators:
+        [5, 0]
+        [2, 1]
+}
+The form with coefficient field : Number Field with defining polynomial x^2 + x 
+    - 1 over the Rational Field
+is not eliminated for 1 prime ideal(s) above : 5
+*************************************************************
+
+Performing refined elimination to eliminate exponent 31 with set of auxiliary 
+primes { 23 }
+
+Dealing with q = 23
+Prime ideal(s) remaining to eliminate = {
+    Prime Ideal of OF
+    Two element generators:
+        [31, 0]
+        [18, 1]
+}
+The form with coefficient field : Number Field with defining polynomial x^2 + x 
+    - 1 over the Rational Field
+is not eliminated for 1 prime ideal(s) above : 31
+*************************************************************
+
+We now compute m(O) in the notation of Kimball Martin.
+
+We first compute Zeta_K(-1):
+
+33*x + 20
+1.117587090E-8
+
+This shows that Zeta_K(-1) = -20/33.
+
+We now compute m(O):
+m(O) = 155/132
+
+Since 5 and 31 divide the numerator of m(O), we have eliminated all forms at 
+level Q2.
+
+*******************************
+
+
+Computing newforms of level Q2*Q11. Dimension of the space: 10
+There are 2 newforms to eliminate.
+Performing standard elimination for 2 form(s) with set of auxiliary primes [ 3, 
+23 ]
+
+Checking form no 1
+
+Dealing with q = 3
+This form can be eliminated for large enough p !
+Prime exponent(s) remaining to eliminate = { 5, 109 }
+Dealing with q = 23
+Form no 1 is eliminated
+*************************************************************
+
+Checking form no 2
+
+Dealing with q = 3
+This form can be eliminated for large enough p !
+Prime exponent(s) remaining to eliminate = { 7, 13, 127 }
+Dealing with q = 23
+Form no 2 is eliminated
+*************************************************************
+
+We have proved that for p > 3 prime, there are no primitive solutions (a,b,c) to
+x^11 + y^11 = z^p such that 2 divides a+b.
+++++++++++++++++++++++ 0.003
+
+Total time: 9.119 seconds, Total memory usage: 216.75MB
+

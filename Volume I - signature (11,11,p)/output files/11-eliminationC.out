@@ -1,0 +1,93 @@
+Magma V2.28-9     Mon Mar  3 2025 23:12:09 on erable   [Seed = 2094868929]
+Type ? for help.  Type <Ctrl>-D to quit.
+Loading "11-fieldK.m"
+Loading "11-curveC.m"
+Computing newforms of level Q2^2*Q11. Dimension of the space: 376
+There are 14 newforms to eliminate.
+
+++++++++++++++++++++++ 3.728
+
+Eliminating forms by checking whether K is included in the field of 
+coefficients...
+
+...done!
+
+The forms at level Q2^2*Q11 whose coefficient field contains K are the forms 
+labelled:
+[ 7, 8, 9, 10, 11, 12 ]
+
+The degrees of the coefficient fields of these forms are:
+
+[ 5, 10, 25, 25, 50, 60 ]
+
+***************************************
+Eliminating form 7
+
+Performing standard elimination with 1 prime ideal(s) above 3
+We still have to eliminate exponents p = { 5, 7 }
+Performing standard elimination with 1 prime ideal(s) above 23
+The form (twisted by the mod 11 cyclotomic character) is eliminated !
+
+++++++++++++++++++++++ 3.790
+
+***************************************
+Eliminating form 8
+
+Performing standard elimination with 1 prime ideal(s) above 3
+We still have to eliminate exponents p = { 17, 37, 53527, 65239 }
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 17 }
+Performing standard elimination with 1 prime ideal(s) above 7
+The form (twisted by the mod 11 cyclotomic character) is eliminated !
+
+++++++++++++++++++++++ 3.920
+
+***************************************
+Eliminating form 9
+
+Performing standard elimination with 1 prime ideal(s) above 3
+We still have to eliminate exponents p = { 5, 23, 43, 757, 1709, 2677, 
+270270757, 10990417189 }
+Performing standard elimination with 1 prime ideal(s) above 5
+We still have to eliminate exponents p = { 5 }
+Performing standard elimination with 1 prime ideal(s) above 23
+The form (twisted by the mod 11 cyclotomic character) is eliminated !
+
+++++++++++++++++++++++ 3.955
+
+***************************************
+Eliminating form 10
+
+Performing standard elimination with 1 prime ideal(s) above 3
+We still have to eliminate exponents p = { 5, 7, 13, 17, 59, 227, 29599, 
+85373917, 855942583 }
+Performing standard elimination with 1 prime ideal(s) above 23
+The form (twisted by the mod 11 cyclotomic character) is eliminated !
+
+++++++++++++++++++++++ 3.989
+
+***************************************
+Eliminating form 11
+
+Performing standard elimination with 1 prime ideal(s) above 3
+We still have to eliminate exponents p = { 991, 2341, 2953, 4621, 19139, 71429, 
+25232971, 145533061, 5959935857, 7238726353, 17894720017 }
+Performing standard elimination with 1 prime ideal(s) above 7
+The form (twisted by the mod 11 cyclotomic character) is eliminated !
+
+++++++++++++++++++++++ 3.996
+
+***************************************
+Eliminating form 12
+
+Performing standard elimination with 1 prime ideal(s) above 3
+We still have to eliminate exponents p = { 41, 131, 487, 70583, 1590101, 
+212152939, 433116589, 1369803583, 2404455199, 702034129733, 
+873294786686194457479 }
+Performing standard elimination with 1 prime ideal(s) above 7
+The form (twisted by the mod 11 cyclotomic character) is eliminated !
+
+++++++++++++++++++++++ 4.055
+
+Total time: 14590.250 seconds, Total memory usage: 3429.56MB
+
