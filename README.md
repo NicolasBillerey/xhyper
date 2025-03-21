@@ -35,6 +35,8 @@ For more details on the timings, see output files in the corresponding folder.
 Volume II - signature (7,7,p) (<a href="https://arxiv.org/abs/2308.07062">arXiv:2308.07062</a>)
 ********************************
 
+**This work has been accepted in Math. Comp. and <a href="https://doi.org/10.1090/mcom/4012">published online</a> in September, 2024.**
+
 * General library files of functions used by files supporting assertions made in the paper:
 
 7-curveE.m: Functions related to the Frey elliptic curve E/Q
