@@ -2,8 +2,8 @@
 	First proof of our main theorem using only the Frey elliptic curve F/K and its twists.
 */
 
-load "fieldK.m";
-load "curveF.m";
+load "7-fieldK.m";
+load "7-curveF.m";
 
 
 

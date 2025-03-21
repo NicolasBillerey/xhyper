@@ -4,9 +4,9 @@
 
 
 //load "curveE.m";
-load "fieldK.m";
-load "curveF.m";
-load "curveC.m";
+load "7-fieldK.m";
+load "7-curveF.m";
+load "7-curveC.m";
 
 
 print "";

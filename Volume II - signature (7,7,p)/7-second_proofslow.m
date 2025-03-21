@@ -4,9 +4,9 @@
 */
 
 
-load "fieldK.m";
-load "curveF.m";
-load "curveCslow.m";
+load "7-fieldK.m";
+load "7-curveF.m";
+load "7-curveCslow.m";
 
 
 print "";

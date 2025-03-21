@@ -2,10 +2,10 @@
 	Third proof of our main theorem using E, F and C.
 */
 
-load "curveE.m";
-load "fieldK.m";
-load "curveF.m";
-load "curveC.m";
+load "7-curveE.m";
+load "7-fieldK.m";
+load "7-curveF.m";
+load "7-curveC.m";
 
 
 

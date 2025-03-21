@@ -2,9 +2,9 @@
 	Variant of the first proof of our main theorem using the Frey elliptic curves E/Q and (twists of) F/K.
 */
 
-load "curveE.m";
-load "fieldK.m";
-load "curveF.m";
+load "7-curveE.m";
+load "7-fieldK.m";
+load "7-curveF.m";
 
 
 print "";

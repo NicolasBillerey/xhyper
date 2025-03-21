@@ -2,9 +2,9 @@
 	Proof of our second main theorem using the Frey elliptic curve F/K (and its twists) and C.
 */
 
-load "fieldK.m";
-load "curveF.m";
-load "curveC.m";
+load "7-fieldK.m";
+load "7-curveF.m";
+load "7-curveC.m";
 
 
 
