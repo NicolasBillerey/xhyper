@@ -9,7 +9,7 @@ Last modifications: March 21, 2025
 Volume I - signature (11,11,p) (<a href="https://arxiv.org/abs/2205.15861">arXiv:2205.15861</a>)
 ********************************
 
-# We warn the reader the published version of this work (Crelle's journal, to appear) is shorter and the numbering is different.
+We warn the reader the published version of this work (Crelle's journal, to appear) is shorter and the numbering is different.
 
 * General library files of functions used by files supporting assertions made in the paper:
 
