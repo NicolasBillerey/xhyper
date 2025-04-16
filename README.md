@@ -9,7 +9,7 @@ Last modifications: March 21, 2025
 Volume I - signature (11,11,p) (<a href="https://arxiv.org/abs/2205.15861">arXiv:2205.15861</a>)
 ********************************
 
-**We warn the reader that the published version of this work (Crelle's journal, to appear) is shorter and the numbering is different.**
+**We warn the reader that the <a href="https://doi.org/10.1515/crelle-2025-0014">published version</a> of this work (Crelle's journal) is shorter and the numbering is different.**
 
 * General library files of functions used by files supporting assertions made in the paper:
 
@@ -35,7 +35,7 @@ For more details on the timings, see output files in the corresponding folder.
 Volume II - signature (7,7,p) (<a href="https://arxiv.org/abs/2308.07062">arXiv:2308.07062</a>)
 ********************************
 
-**This work has been accepted in Math. Comp. and <a href="https://doi.org/10.1090/mcom/4012">published online</a> in September, 2024.**
+**This work has been <a href="https://doi.org/10.1090/mcom/4012">published</a> in Mathematics of Computation. The specific citations in this second volume to `On Darmon's program for the generalized Fermat equation, I' follow  the numbering of the <a href="https://arxiv.org/abs/2205.15861">arXiv version</a> of volume I and not the shorter version accepted for publication in Crelle.**
 
 * General library files of functions used by files supporting assertions made in the paper:
 
