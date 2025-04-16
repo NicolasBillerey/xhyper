@@ -35,7 +35,7 @@ For more details on the timings, see output files in the corresponding folder.
 Volume II - signature (7,7,p) (<a href="https://arxiv.org/abs/2308.07062">arXiv:2308.07062</a>)
 ********************************
 
-**This work has been <a href="https://doi.org/10.1090/mcom/4012">published</a> in Mathematics of Computation. The specific citations in this second volume to `On Darmon's program for the generalized Fermat equation, I' follow  the numbering of the <a href="https://arxiv.org/abs/2205.15861">arXiv version</a> of volume I and not the shorter version accepted for publication in Crelle.**
+**This work has been <a href="https://doi.org/10.1090/mcom/4012">published</a> in Mathematics of Computation. The specific citations in this second volume to `On Darmon's program for the generalized Fermat equation, I' follow the numbering of the <a href="https://arxiv.org/abs/2205.15861">arXiv version</a> of volume I and not the shorter published version.**
 
 * General library files of functions used by files supporting assertions made in the paper:
 
