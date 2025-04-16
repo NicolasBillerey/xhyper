@@ -1,4 +1,4 @@
-# Darmon's program on generalized Fermat equations
+# On Darmon's program for the generalized Fermat equation
 Electronic resources for the series of papers `On Darmon's program for the generalized Fermat equation' vol. I and II by Nicolas Billerey, Imin Chen, Luis Dieulefait, and Nuno Freitas.
 
 Remark: The programs were run using Magma V2.28-9 either on a 2.35/3.35 Ghz 32 core AMD EPYC 7452 machine with 512 Gb from Laboratoire de Mathématiques Blaise Pascal in Université Clermont Auvergne or on a personal computer.
